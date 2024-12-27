@@ -11,7 +11,6 @@
 #   CYAN_LIGHT
 #   RED
 #   GREEN
-#   YELLOW
 # Arguments:
 #   None
 #######################################
@@ -22,7 +21,7 @@ print_banner() {
   printf "\n\n"
 
   # Definir colores
-  BLUE='\033[1;34m'  # Azul para el logo de WhatsApp
+  BLUE='\033[1;34m'  # Azul para el logo
   GREEN='\033[1;32m'
   WHITE='\033[1;37m'
   NC='\033[0m'       # Sin color
@@ -42,16 +41,17 @@ print_banner() {
 
   printf "\n"
 
+  # Imprimir "ELEVARA" en arte ASCII
   printf "${GREEN}";
-  printf "██     ██ ██   ██  █████  ████████ ██  ██████ ██   ██ ███████ ████████\n";
-  printf "██     ██ ██   ██ ██   ██    ██    ██ ██      ██  ██  ██         ██   \n";
-  printf "██  █  ██ ███████ ███████    ██    ██ ██      █████   █████      ██   \n";
-  printf "██ ███ ██ ██   ██ ██   ██    ██    ██ ██      ██  ██  ██         ██   \n";
-  printf " ███ ███  ██   ██ ██   ██    ██    ██  ██████ ██   ██ ███████    ██   \n";
+  printf "██████  ██████  ██      ██ ███████  ██████  ██    ██  ██████  ██    ██  ██████  \n";
+  printf "██   ██ ██   ██ ██      ██ ██      ██  ██ ██  ██  ██ ██   ██ ██  ██ ██   ██  \n";
+  printf "██████  ██████  ██      ██ ███████  ██████  ██    ██  ██████  ██    ██  ██████  \n";
+  printf "██   ██ ██   ██ ██      ██ ██      ██  ██ ██  ██  ██ ██   ██ ██  ██ ██   ██  \n";
+  printf "██   ██ ██   ██  ███████  ██ ███████  ██████  ██    ██  ██████  ██    ██  ██████  \n";
   printf "${NC}";
 
   printf "\n"
-
-  # Agregar "Elevara" al banner
-  printf "${GREEN}ELEVARA${NC}\n"
 }
+
+# Llamar a la función para imprimir el banner
+print_banner
