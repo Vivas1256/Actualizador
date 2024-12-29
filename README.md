@@ -1,4 +1,4 @@
-# Instalador Whaticket SaaS - Redis em Docker
+# Instalador Elevara CRM - Redis em Docker
 
 ```bash
 sudo apt -y update && apt -y upgrade
@@ -14,6 +14,8 @@ ACESSANDO DIRETORIO DO INSTALADOR & INICIANDO INSTALAÇÕES ADICIONAIS (USAR EST
 
 ```bash
 cd actualizador-elevara-icloud  && sudo ./install_instancia
+
+enlace  github clone https://github.com/Vivas1256/elevara-icloud-.git
 ```
 
 ## Requisitos
