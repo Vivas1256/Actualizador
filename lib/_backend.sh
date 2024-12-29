@@ -38,7 +38,7 @@ sleep 2
 #######################################
 backend_set_env() {
   print_banner
-  printf "${WHITE} 💻 Configurando variáveis de ambiente (backend)...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Configurando variables del ambiente  (backend)...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -98,7 +98,7 @@ EOF
 #######################################
 backend_node_dependencies() {
   print_banner
-  printf "${WHITE} 💻 Instalando dependências do backend...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Instalando dependencias del backend...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -118,7 +118,7 @@ EOF
 #######################################
 backend_node_build() {
   print_banner
-  printf "${WHITE} 💻 Compilando o código do backend...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Compilando el código backend...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -138,7 +138,7 @@ EOF
 #######################################
 backend_update() {
   print_banner
-  printf "${WHITE} 💻 Atualizando o backend...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Actualizando el backend...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -170,7 +170,7 @@ EOF
 #######################################
 backend_db_migrate() {
   print_banner
-  printf "${WHITE} 💻 Executando db:migrate...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Ejecutando db:migrar...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -190,7 +190,7 @@ EOF
 #######################################
 backend_db_seed() {
   print_banner
-  printf "${WHITE} 💻 Executando db:seed...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Ejecutando db: semilla...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
