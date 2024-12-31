@@ -11,6 +11,7 @@
 #   CYAN_LIGHT
 #   RED
 #   GREEN
+#   YELLOW
 # Arguments:
 #   None
 #######################################
@@ -20,38 +21,25 @@ print_banner() {
 
   printf "\n\n"
 
-  # Definir colores
-  BLUE='\033[1;34m'  # Azul para el logo
-  GREEN='\033[1;32m'
-  WHITE='\033[1;37m'
-  NC='\033[0m'       # Sin color
-
-  printf "${BLUE}";
+  printf "${GREEN}";
   printf "                                                     ▄▄█▀▀▀▀▀▀▀█▄▄  \n";
-  printf "                                                   ${BLUE}▄█▀${NC}   ${WHITE}▄▄${NC}      ${BLUE}▀█▄\n";
-  printf "                                                   ${BLUE}█${NC}    ${WHITE}███${NC}         ${BLUE}█\n";
-  printf "                                                   ${BLUE}█${NC}    ${WHITE}██▄         ${BLUE}█${NC}\n";
-  printf "                                                   ${BLUE}█${NC}     ${WHITE}▀██▄${NC} ${WHITE}██${NC}    ${BLUE}█\n";
-  printf "                                                   ${BLUE}█${NC}       ${WHITE}▀███▀${NC}    ${BLUE}█\n";
-  printf "                                                   ${BLUE}▀█▄           ▄█▀\n";
+  printf "                                                   ${GREEN}▄█▀${NC}   ${WHITE}▄▄${NC}      ${GREEN}▀█▄\n";
+  printf "                                                   ${GREEN}█${NC}    ${WHITE}███${NC}         ${GREEN}█\n";
+  printf "                                                   ${GREEN}█${NC}    ${WHITE}██▄         ${GREEN}█${NC}\n";
+  printf "                                                   ${GREEN}█${NC}     ${WHITE}▀██▄${NC} ${WHITE}██${NC}    ${GREEN}█\n";
+  printf "                                                   ${GREEN}█${NC}       ${WHITE}▀███▀${NC}    ${GREEN}█\n";
+  printf "                                                   ${GREEN}▀█▄           ▄█▀\n";
   printf "                                                    ▄█    ▄▄▄▄█▀▀  \n";
   printf "                                                    █  ▄█▀        \n";
   printf "                                                    ▀▀▀▀          \n";
   printf "${NC}";
 
-  printf "\n"
 
-  # Imprimir "ELEVARA" en arte ASCII
-  printf "${GREEN}";
-  printf "██████  ██████  ██      ██ ███████  ██████  ██    ██  ██████  ██    ██  ██████  \n";
-  printf "██   ██ ██   ██ ██      ██ ██      ██  ██ ██  ██  ██ ██   ██ ██  ██ ██   ██  \n";
-  printf "██████  ██████  ██      ██ ███████  ██████  ██    ██  ██████  ██    ██  ██████  \n";
-  printf "██   ██ ██   ██ ██      ██ ██      ██  ██ ██  ██  ██ ██   ██ ██  ██ ██   ██  \n";
-  printf "██   ██ ██   ██  ███████  ██ ███████  ██████  ██    ██  ██████  ██    ██  ██████  \n";
-  printf "${NC}";
+
+
+
+ 
+  
 
   printf "\n"
 }
-
-# Llamar a la función para imprimir el banner
-print_banner

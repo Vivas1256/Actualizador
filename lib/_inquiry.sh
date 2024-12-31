@@ -27,7 +27,7 @@ get_instancia_add() {
 get_max_whats() {
   
   print_banner
-  printf "${WHITE} 💻 Digite cantidad de lineas de Whatsapp ${instancia_add} puedes registrar:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite cantidad de lineas de Whatsapp maxi (99999999) ${instancia_add} puedes registrar:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " max_whats
 }
@@ -35,7 +35,7 @@ get_max_whats() {
 get_max_user() {
   
   print_banner
-  printf "${WHITE} 💻 Digite cantidad de usuarios ${instancia_add} puedes registrar:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite cantidad de usuarios maxi (99999999) ${instancia_add} puedes registrar:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " max_user
 }
@@ -59,7 +59,7 @@ get_backend_url() {
 get_frontend_port() {
   
   print_banner
-  printf "${WHITE} 💻 Digite a puerto do FRONTEND para a ${instancia_add}; Ex: 3000 A 3999 ${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite el puerto del FRONTEND para a ${instancia_add}; Ex: 3000 A 3999 ${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " frontend_port
 }
@@ -68,7 +68,7 @@ get_frontend_port() {
 get_backend_port() {
   
   print_banner
-  printf "${WHITE} 💻 Digite a puerto do BACKEND para esta instancia; Ex: 4000 A 4999 ${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite el puerto del BACKEND para esta instancia; Ex: 4000 A 4999 ${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " backend_port
 }
@@ -76,7 +76,7 @@ get_backend_port() {
 get_redis_port() {
   
   print_banner
-  printf "${WHITE} 💻 Digite a porta do REDIS/AGENDAMENTO MSG para a ${instancia_add}; Ex: 5000 A 5999 ${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite el puerto de REDIS/AGENDAMENTO MSG para a ${instancia_add}; Ex: 5000 A 5999 ${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " redis_port
 }
@@ -84,7 +84,7 @@ get_redis_port() {
 get_empresa_delete() {
   
   print_banner
-  printf "${WHITE} 💻 Digite o nome da Instancia/Empresa que será Deletada (Digite o mesmo nome de quando instalou):${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Ingrese el nombre de la Instancia/Empresa que se eliminará (Ingrese el mismo nombre que cuando instaló):${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " empresa_delete
 }
@@ -92,7 +92,7 @@ get_empresa_delete() {
 get_empresa_atualizar() {
   
   print_banner
-  printf "${WHITE} 💻 Digite o nome da Instancia/Empresa que deseja Atualizar (Digite o mesmo nome de quando instalou):${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Ingrese el nombre de la Instancia/Empresa que desea actualizar (Ingrese el mismo nombre que cuando instaló):${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " empresa_atualizar
 }
@@ -100,7 +100,7 @@ get_empresa_atualizar() {
 get_empresa_bloquear() {
   
   print_banner
-  printf "${WHITE} 💻 Digite o nome da Instancia/Empresa que deseja Bloquear (Digite o mesmo nome de quando instalou):${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Ingrese el nombre de la Instancia/Empresa que desea bloquear (Ingrese el mismo nombre que cuando instaló):${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " empresa_bloquear
 }
@@ -108,7 +108,7 @@ get_empresa_bloquear() {
 get_empresa_desbloquear() {
   
   print_banner
-  printf "${WHITE} 💻 Digite o nome da Instancia/Empresa que deseja Desbloquear (Digite o mesmo nome de quando instalou):${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Ingrese el nombre de la Instancia/Empresa que desea desbloquear (Ingrese el mismo nombre que cuando instaló):${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " empresa_desbloquear
 }
@@ -116,7 +116,7 @@ get_empresa_desbloquear() {
 get_empresa_dominio() {
   
   print_banner
-  printf "${WHITE} 💻 Digite o nome da Instancia/Empresa que deseja Alterar os Dominios (Atenção para alterar os dominios precisa digitar os 2, mesmo que vá alterar apenas 1):${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Ingresa el nombre de la Instancia/Empresa donde deseas Cambiar los Dominios (Ojo, para cambiar los dominios necesitas ingresar ambos, incluso si solo vas a cambiar 1):${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " empresa_dominio
 }
@@ -124,7 +124,7 @@ get_empresa_dominio() {
 get_alter_frontend_url() {
   
   print_banner
-  printf "${WHITE} 💻 Digite o NOVO domínio do FRONTEND/PAINEL para a ${empresa_dominio}:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Ingrese el NUEVO dominio FRONTEND/PAINEL para a ${empresa_dominio}:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " alter_frontend_url
 }
@@ -132,7 +132,7 @@ get_alter_frontend_url() {
 get_alter_backend_url() {
   
   print_banner
-  printf "${WHITE} 💻 Digite o NOVO domínio do BACKEND/API para a ${empresa_dominio}:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Ingrese el NUEVO dominio BACKEND/API para a ${empresa_dominio}:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " alter_backend_url
 }
@@ -140,7 +140,7 @@ get_alter_backend_url() {
 get_alter_frontend_port() {
   
   print_banner
-  printf "${WHITE} 💻 Digite a porta do FRONTEND da Instancia/Empresa ${empresa_dominio}; A porta deve ser o mesma informada durante a instalação ${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Ingrese al puerto FRONTEND da Instancia/Empresa ${empresa_dominio}; El puerto debe ser el mismo que el especificado durante la instalación. ${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " alter_frontend_port
 }
@@ -149,7 +149,7 @@ get_alter_frontend_port() {
 get_alter_backend_port() {
   
   print_banner
-  printf "${WHITE} 💻 Digite a porta do BACKEND da Instancia/Empresa ${empresa_dominio}; A porta deve ser o mesma informada durante a instalação ${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Ingrese al puerto do BACKEND da Instancia/Empresa ${empresa_dominio}; El puerto debe ser el mismo que el especificado durante la instalación. ${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " alter_backend_port
 }
@@ -203,12 +203,12 @@ inquiry_options() {
   print_banner
   printf "${WHITE} 💻 Bienvenido a Elevara CRM ICLOUD. Seleccione su próxima acción a continuación!${GRAY_LIGHT}"
   printf "\n\n"
-  printf "   [0] Instalar Elevara CRM"
-  printf "   [1] Atualizar Elevara CRM"
-  printf "   [2] Deletar Elevara CRM"
-  printf "   [3] Bloquear Elevara CRM"
-  printf "   [4] Desbloquear Elevara CRM"
-  printf "   [5] Alter. dominio Elevara CRM"
+  printf "   [0] Instalar sistema Elevara CRM"
+  printf "   [1] Atualizar sistema Elevara CRM"
+  printf "   [2] Borrar empresa"
+  printf "   [3] Bloquear empresa"
+  printf "   [4] Desbloquear empresa"
+  printf "   [5] Actualizar. dominio"
   printf "\n"
   read -p "> " option
 
