@@ -77,7 +77,7 @@ EOF
 #######################################
 frontend_set_env() {
   print_banner
-  printf "${WHITE} 💻 Configurando variáveis de ambiente (frontend)...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Configurando variables de ambiente (frontend)...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
