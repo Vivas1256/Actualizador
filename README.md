@@ -1,4 +1,4 @@
-# Instalador Elevara CRM - Redis em Docker
+# Instalador Elevara CRM  - Redis em Docker
 
 ```bash
 sudo apt -y update && apt -y upgrade
@@ -7,13 +7,13 @@ sudo apt -y update && apt -y upgrade
 FAZENDO DOWNLOAD DO INSTALADOR & INICIANDO A PRIMEIRA INSTALAÇÃO (USAR SOMENTE PARA PRIMEIRA INSTALAÇÃO):
 
 ```bash
-sudo apt install -y git && git clone https://github.com/Vivas1256/actualizador-elevara-icloud.git  && sudo chmod -R 777 actualizador-elevara-icloud  && cd actualizador-elevara-icloud  && sudo ./install_primaria
+sudo apt install -y git && git clone https://github.com/Vivas1256/Actualizador.git  && sudo chmod -R 777 actualizador  && cd actualizador/  && sudo ./install_primaria
 ```
 
 ACESSANDO DIRETORIO DO INSTALADOR & INICIANDO INSTALAÇÕES ADICIONAIS (USAR ESTE COMANDO PARA SEGUNDA OU MAIS INSTALAÇÃO:
 
 ```bash
-cd actualizador-elevara-icloud  && sudo ./install_instancia
+cd actualizador/  && sudo ./install_instancia
 
 enlace  github clone https://github.com/Vivas1256/elevara-icloud-.git
 ```
